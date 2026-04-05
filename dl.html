@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>画像ダウンロード</title>
+  <style>
+    .download-img {
+      width: 300px;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: transform 0.2s;
+    }
+
+    .download-img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h2>画像をクリックするとダウンロードされます</h2>
+
+  <a href="sample.jpg" download="event_image.jpg">
+    <img src="sample.jpg" alt="イベント画像" class="download-img">
+  </a>
+
+</body>
+</html>
