@@ -1,0 +1,81 @@
+/* 全体 */
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  margin: 0;
+  background: #b1beea;
+  color: #444;
+}
+
+/* ヘッダー */
+header {
+  background: #8869a5;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+/* コンテナ */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* セクション */
+section {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* 見出し */
+h2 {
+  color: #8869a5;
+  border-left: 8px solid #c58ade;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+/* 開催概要 */
+.event-info p {
+  margin: 8px 0;
+}
+
+/* 企画リスト */
+.plan-list {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-list li {
+  background: #90c4e9;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.plan-list li:nth-child(even) {
+  background: #8095ce;
+}
+
+/* フッター */
+footer {
+  background: #c58ade;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 0.9em;
+}
